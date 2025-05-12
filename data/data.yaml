@@ -1,0 +1,13 @@
+train: datasets/Knife-Detection/images/train
+val: datasets/Knife-Detection/images/valid
+# test: ../test/images
+
+nc: 1
+names: ['Knife']
+
+roboflow:
+  workspace: violence-detection-rvh0k
+  project: knife-detection-obh5j
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/violence-detection-rvh0k/knife-detection-obh5j/dataset/4
