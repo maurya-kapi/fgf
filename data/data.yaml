@@ -3,7 +3,7 @@ val: datasets/Knife-Detection/images/valid
 # test: ../test/images
 
 nc: 1
-names: ['Knife']
+names: ["Knife"]
 
 roboflow:
   workspace: violence-detection-rvh0k
